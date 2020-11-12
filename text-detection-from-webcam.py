@@ -1,7 +1,7 @@
 import pytesseract
 import cv2
 
-pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = 'PATH_TO_tesseract.exe'
 cap = cv2.VideoCapture(0) 
 
 while True:
