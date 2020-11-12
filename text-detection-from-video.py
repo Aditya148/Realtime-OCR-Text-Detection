@@ -1,8 +1,8 @@
 import pytesseract
 import cv2
 
-pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract.exe'
-cap = cv2.VideoCapture('C:/Users/adih4/OneDrive/Desktop/Projects/PyProjects/Text-Detection/test-video/sample3.mp4') 
+pytesseract.pytesseract.tesseract_cmd = 'PATH_TO_tesseract.exe'
+cap = cv2.VideoCapture('/test-video/sample3.mp4') 
 
 while True:
     ret, frame = cap.read()
