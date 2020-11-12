@@ -1,8 +1,8 @@
 import pytesseract
 import cv2
 
-pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract.exe'
-img = cv2.imread('C:/Users/adih4/OneDrive/Desktop/Projects/PyProjects/Text-Detection/test-images/sample5.jpg')
+pytesseract.pytesseract.tesseract_cmd = 'PATH_TO_tesseract.exe'
+img = cv2.imread('/test-images/sample5.jpg')
 
 imgH, imgW, _ = img.shape
 
